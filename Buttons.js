@@ -1,6 +1,7 @@
 const operators_top = [
-	['ac', 'c'],
-	['', ''],
+	['ac', 'clearAll'],
+	['+/-', 'invert'],
+	// ['c', 'clear'],
 	['%', '%'],
 ];
 const operators_right = [
@@ -24,6 +25,7 @@ function Buttons({ target, data, onClick }) {
 		for (let i = 9; i >= 0; i--) {
 			html += `<button data-id="${i}">${i}</button>`;
 		}
+		html += `<button data-id=".">.</button>`;
 
 		return html;
 	};
