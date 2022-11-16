@@ -2,4 +2,4 @@
 
 ## 브라우저에서 확인해 보기
 
-[calculator 사이트](https://pj-pri.github.io/calculator/)
+-   calculator 링크 : [ https://pj-pri.github.io/calculator/](https://pj-pri.github.io/calculator/)
