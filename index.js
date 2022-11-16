@@ -8,7 +8,7 @@ function App({ target }) {
 	const buttons = new Buttons({
 		target: target,
 		data: [],
-		onClick: viewer.setData,
+		onClick: viewer.onClick,
 	});
 }
 
