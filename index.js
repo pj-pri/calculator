@@ -1,5 +1,5 @@
-import Buttons from './Buttons.js';
-import Viewer from './Viewer.js';
+import Buttons from './Buttons.js?1';
+import Viewer from './Viewer.js?1';
 
 const app = document.querySelector('.app');
 

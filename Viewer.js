@@ -1,4 +1,4 @@
-import returnCalculate from './calculate.js';
+import returnCalculate from './calculate.js?1';
 
 /**
  * stete
