@@ -193,6 +193,9 @@ function Viewer({ target }) {
 					if (result === false) return;
 					this.setTemp(fisrtNumber + operator + secondNumber + '=');
 					this.setInput(result);
+				} else if (isOerator) {
+					this.setTemp(this.getInput() + word);
+					this._state = 2;
 				} else {
 					this.setTemp('');
 					this.setInput(word);
